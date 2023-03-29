@@ -15,8 +15,8 @@ public class Ex03_12 {
         System.out.printf("%c \n", d);
 
         d = '가';
-        e = (char)(d + 1);
-        System.out.printf("%d \t",(int) d);
+        e = (char) (d + 1);
+        System.out.printf("%d \t", (int) d);
         System.out.printf("%c \n", e);
     }
 }

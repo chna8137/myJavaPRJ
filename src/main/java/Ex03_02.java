@@ -3,7 +3,7 @@ public class Ex03_02 {
         System.out.printf("100 + 100");
         System.out.printf("\n");
 
-        System.out.printf("%d", 100+ 100);
+        System.out.printf("%d", 100 + 100);
     }
 }
 

@@ -3,7 +3,7 @@ package practice;
 import java.util.Scanner;
 
 public class Beakjoon_01 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         int a, b;
@@ -12,7 +12,6 @@ public class Beakjoon_01 {
         b = sc.nextInt();
 
         System.out.println(a + b);
-
 
 
     }

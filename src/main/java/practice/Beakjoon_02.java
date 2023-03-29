@@ -1,8 +1,9 @@
 package practice;
 
 import java.util.Scanner;
+
 public class Beakjoon_02 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         int a, b;

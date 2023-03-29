@@ -4,7 +4,7 @@ public class Ex03_07 {
         int a;
         float b;
 
-        a = (int)123.45f;
+        a = (int) 123.45f;
         b = 200;
 
         System.out.printf("a의 값 ==> %d \n", a);

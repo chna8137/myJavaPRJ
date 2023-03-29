@@ -1,9 +1,7 @@
-import com.sun.org.apache.bcel.internal.classfile.SourceFile;
-
 import java.util.Scanner;
 
 public class pr {
-    public static void main(String[]args){
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         int a, b;
@@ -18,16 +16,15 @@ public class pr {
         System.out.print("두 번째 수를 입력하세요 : ");
         b = sc.nextInt();
 
-        if(c == '+'){
-            System.out.printf("%d + %d = %d", a, b, a+b);}
-        else if(c == '-'){
-            System.out.printf("%d - %d = %d", a, b, a-b);}
-        else{
-            System.out.print("올바른 연산자가 아닙니다.");}
+        if (c == '+') {
+            System.out.printf("%d + %d = %d", a, b, a + b);
+        } else if (c == '-') {
+            System.out.printf("%d - %d = %d", a, b, a - b);
+        } else {
+            System.out.print("올바른 연산자가 아닙니다.");
         }
-
-
-
-
     }
+
+
+}
 
