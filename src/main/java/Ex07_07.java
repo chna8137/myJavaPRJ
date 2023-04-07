@@ -4,9 +4,9 @@ public class Ex07_07 {
         int i;
 
         for(i = 1; i <= 100; i++){
-            System.out.printf("for 문 %d회 실행합니다. \n", i);
+            System.out.printf("for문 %d회 실행합니다. \n", i);
             break;
         }
-        System.out.printf("for 문을 종료했습니다.");
+        System.out.printf("for문을 종료했습니다.");
     }
 }

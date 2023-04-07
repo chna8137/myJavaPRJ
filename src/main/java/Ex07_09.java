@@ -10,6 +10,6 @@ public class Ex07_09 {
                 break;
             }
         }
-            System.out.printf("1~100의 합에서 최초로 1000이 넘는 위치는? : %d\n",i);
+            System.out.printf("1~100의 합에서 최초로 1000이 넘는 위치는?? : %d\n",i);
     }
 }
