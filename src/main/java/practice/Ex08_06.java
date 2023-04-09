@@ -5,11 +5,16 @@ public class Ex08_06 {
 
         int[]aa = {10, 20, 30, 40, 50}; //배열을 선언한다. 초기화 개수에 의해 개수가 5로 설정된다.
         int count, size; // 배열 요소의 개수와 배열의 실제 크기를 저장할 변수를 선언한다.
+        int hap = 0;
 
         count = aa.length; //배열 요소의 개수를 계산한다.
         size = count * Integer.BYTES; //배열 전체 크기(바이트)를 계산한다.
+        for(int i = 0; i < count; i++){
+            hap += aa[i];
+        }
 
         System.out.printf("배열 aa[]의 요소의 개수는 %d 개 입니다. \n", count);
         System.out.printf("배열 aa[]의 요소의 전체 크기는 %d 바이트 입니다. \n", size);
+        System.out.println("배열 aa[]의 전체 값의 합계는 " + hap + "개 입니다.");
     }
 }
