@@ -8,6 +8,6 @@ public class Codeup_1010 {
 
         int n;
         n = sc.nextInt();
-        System.out.printf("%d", n);
+        System.out.printf("%d",n);
     }
 }

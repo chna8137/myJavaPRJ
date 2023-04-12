@@ -9,6 +9,6 @@ public class Codeup_1013 {
         int a, b;
         a = sc.nextInt();
         b = sc.nextInt();
-        System.out.printf("%d %d", a, b);
+        System.out.printf("%d %d",a,b);
     }
 }
