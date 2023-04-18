@@ -18,8 +18,8 @@ public class Pr_30 {
         for (i = 0; i < 100; i++) {
             if (i < 50) {
                 bb[i] = i + 50;
-        }else
-            bb[i] = i-50;
+            } else
+                bb[i] = i - 50;
             System.out.printf("aa[%d]=bb[%d] \t", i, bb[i]);
         }
     }
