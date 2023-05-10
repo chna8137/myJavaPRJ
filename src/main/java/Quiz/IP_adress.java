@@ -9,8 +9,22 @@ public class IP_adress {
 
         String[] ip = log.split(" ");
         System.out.println("IP 주소 : " + ip[0]);
+        System.out.println("빠밤  : " + ip[5]);
 
         ip = log.split(" ");
         System.out.println("호출날짜와 시간 : " + ip[3]);
+
+        String replace;
+
+        replace = log.replace("Apr","Oct");
+        System.out.println("짜란 : " + replace);
+
+        String sub;
+        System.out.println(log.indexOf("Apr"));
+        sub = log.substring(24,27);
+        System.out.println("따라란 : " + sub);
+
+
+
     }
 }
