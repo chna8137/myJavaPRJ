@@ -1,6 +1,6 @@
 package practice;
 
-class Pet {
+class Pet2 {
     String type;
     int age;
 
@@ -15,11 +15,11 @@ class Pet {
 
 public class Problem_29 {
     public static void main(String[] args) {
-        Pet pet1 = new Pet();
+        Pet2 pet1 = new Pet2();
         pet1.type = "강아지";
         pet1.age = 8;
 
-        Pet pet2 = new Pet();
+        Pet2 pet2 = new Pet2();
         pet2.type = "고양이";
         pet2.age = 13;
 
