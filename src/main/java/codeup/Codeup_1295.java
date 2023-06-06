@@ -17,7 +17,6 @@ public class Codeup_1295 {
             }
             if (97 <= arr[i] && arr[i] <= 122) {
                 arr[i] = (char) (arr[i] - 32);
-                continue;
             }
         }
 
