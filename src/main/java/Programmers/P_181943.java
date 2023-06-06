@@ -10,6 +10,5 @@ public class P_181943 {
         answer += sub01 + overwrite_string + sub02;
 
         return answer;
-
     }
 }
