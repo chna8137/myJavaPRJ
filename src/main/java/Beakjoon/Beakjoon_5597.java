@@ -16,8 +16,6 @@ public class Beakjoon_5597 {
             if(student[i]!=1)
                 System.out.println(i);
         }
-
-
         sc.close();
     }
 }
